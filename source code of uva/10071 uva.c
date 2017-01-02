@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int r,v,t;
+    while(scanf("%d %d",&v,&t)!=EOF){
+        r=2*v*t;
+        printf("%d\n",r);
+    }
+    return 0;
+}
